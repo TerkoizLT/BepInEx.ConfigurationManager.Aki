@@ -36,10 +36,6 @@
       <HintPath>..\lib\BepInEx.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="BepInEx.BepIn4Patcher">
-      <HintPath>..\lib\BepInEx.BepIn4Patcher.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="UnityEngine">
@@ -60,7 +56,6 @@
     <Compile Include="ConfigurationManager.cs" />
     <Compile Include="Obsolete\Interface\KeyboardShortcut.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Obsolete\Interface\SavedKeyboardShortcut.cs" />
     <Compile Include="Obsolete\LegacySettingEntry.cs" />
     <Compile Include="SettingEntryBase.cs" />
     <Compile Include="SettingFieldDrawer.cs" />

@@ -1,7 +1,11 @@
+## Fork of BepInEx.ConfigurationManager
+This version is modified to allow loading with the SPT-AKI project by removing the dependency on `BepInEx.BepIn4Manager`, which was preventing the game from loading.
+Full credit to MarC0 / ManlyMarco.
+
 ## Plugin / mod configuration manager for BepInEx 5
 An easy way to let user configure how a plugin behaves without the need to make your own GUI. The user can change any of the settings you expose, even keyboard shortcuts.
 
-The configuration manager can be accessed in-game by pressing the hotkey (by default F1). Hover over the setting names to see their descriptions, if any.
+The configuration manager can be accessed in-game by pressing the hotkey (by default F12). Hover over the setting names to see their descriptions, if any.
 
 ![Configuration manager](Screenshot.PNG)
 
@@ -9,7 +13,7 @@ The configuration manager can be accessed in-game by pressing the hotkey (by def
 - Install a build of BepInEx 5 from at least 26/09/2019 (older won't work).
 - Download latest release from the Releases tab above.
 - Place the .dll inside your BepInEx\Plugins folder.
-- Start the game and press F1.
+- Start the game and press F12.
 
 Note: The .xml file is useful for plugin developers when referencing ConfigurationManager.dll in your plugin, it will provide descriptions for types and methods to your IDE. Users can ignore it.
 
