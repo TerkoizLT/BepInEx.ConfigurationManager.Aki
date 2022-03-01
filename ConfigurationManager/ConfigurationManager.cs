@@ -17,7 +17,7 @@ namespace ConfigurationManager
 {
     /// <summary>
     /// An easy way to let user configure how a plugin behaves without the need to make your own GUI. The user can change any of the settings you expose, even keyboard shortcuts.
-    /// https://github.com/ManlyMarco/BepInEx.ConfigurationManager
+    /// Originally forked from https://github.com/ManlyMarco/BepInEx.ConfigurationManager
     /// </summary>
     [BepInPlugin(GUID, "Configuration Manager", Version)]
     [Browsable(false)]
@@ -31,7 +31,7 @@ namespace ConfigurationManager
         /// <summary>
         /// Version constant
         /// </summary>
-        public const string Version = "16.4";
+        public const string Version = "16.4.1";
 
         internal static new ManualLogSource Logger;
         private static SettingFieldDrawer _fieldDrawer;
